@@ -1,0 +1,32 @@
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+ul{
+    list-style: none ;
+    background-color: chocolate;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(164, 20, 101);
+    padding:10 px;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.025);
+}
+li:hover{
+    background-color: pink;
+    cursor: pointer;
+}  
+.link:hover{
+    color:white
+}
